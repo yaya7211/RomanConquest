@@ -1,4 +1,4 @@
-# Web Management Game
+# Roman conquest Game
 
 Welcome to the **Roman Conquest Game** repository! This project provides a simulation game for roman conquest, where players take on the role of managing virtually an army and ressources necessary to conquer countries
 ---
