@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/WebManagementGame/static/css/main.7657bf77.css",
+    "main.js": "/WebManagementGame/static/js/main.d90b36f2.js",
+    "static/media/denariiIcon.webp": "/WebManagementGame/static/media/denariiIcon.5433c564050d62d3bbc3.webp",
+    "static/media/jCeasarStatue.jpg": "/WebManagementGame/static/media/jCeasarStatue.bec4e178a85964e60050.jpg",
+    "static/media/map.jpg": "/WebManagementGame/static/media/map.89cea79c4254d1543f30.jpg",
+    "static/media/viewIcon.webp": "/WebManagementGame/static/media/viewIcon.5dedbdc3e7690c81018d.webp",
+    "static/media/menuIcon.webp": "/WebManagementGame/static/media/menuIcon.d077fea26f345de77d13.webp",
+    "static/media/regionIcon.webp": "/WebManagementGame/static/media/regionIcon.0c707b6ae71eff855566.webp",
+    "static/media/playButtonIcon.webp": "/WebManagementGame/static/media/playButtonIcon.f17e42c498766ca78473.webp",
+    "static/media/lignumIcon.webp": "/WebManagementGame/static/media/lignumIcon.a4fc33868d263da5c486.webp",
+    "static/media/cityIcon.webp": "/WebManagementGame/static/media/cityIcon.85841f1c3850faa29ad3.webp",
+    "static/media/manupretiumIcon.webp": "/WebManagementGame/static/media/manupretiumIcon.1c4994cd4e9b42d5f002.webp",
+    "static/media/warIcon.webp": "/WebManagementGame/static/media/warIcon.ec8da752795038928da9.webp",
+    "static/media/petraIcon.webp": "/WebManagementGame/static/media/petraIcon.5dc2c5003b0088dc6d86.webp",
+    "static/media/troopsIcon.webp": "/WebManagementGame/static/media/troopsIcon.31f2955b80e6692b4135.webp",
+    "static/media/victualiaIcon.webp": "/WebManagementGame/static/media/victualiaIcon.cb36b9da3346100dd4e1.webp",
+    "static/media/ferrumIcon.webp": "/WebManagementGame/static/media/ferrumIcon.e6369429a5160baf2aae.webp",
+    "static/media/ordoIcon.webp": "/WebManagementGame/static/media/ordoIcon.4cf9d2d4a6c6af00bdfa.webp",
+    "static/media/soldierIcon.webp": "/WebManagementGame/static/media/soldierIcon.de51a45257995cd518e1.webp",
+    "static/media/helpIcon.webp": "/WebManagementGame/static/media/helpIcon.ecbdf76b355a9bd8dc35.webp",
+    "static/media/movementIcon.webp": "/WebManagementGame/static/media/movementIcon.0b4834605c8cabab58c1.webp",
+    "static/media/buildIcon.webp": "/WebManagementGame/static/media/buildIcon.e2c73d90c83810142c94.webp",
+    "static/media/selectCursorIcon.webp": "/WebManagementGame/static/media/selectCursorIcon.2d0becb8b19f11beb72a.webp",
+    "index.html": "/WebManagementGame/index.html",
+    "main.7657bf77.css.map": "/WebManagementGame/static/css/main.7657bf77.css.map",
+    "main.d90b36f2.js.map": "/WebManagementGame/static/js/main.d90b36f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7657bf77.css",
+    "static/js/main.d90b36f2.js"
+  ]
+}
