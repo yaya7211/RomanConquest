@@ -1,0 +1,23 @@
+.ActionsBar {
+    position: fixed;
+    left: 0;
+    top: 15vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+    background-color: #f4f1ea;
+    padding: 10px;
+    border-radius:20px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.actions > * {
+    margin: 15px;
+}

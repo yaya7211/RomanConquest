@@ -1,0 +1,17 @@
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.ceasar_Statue {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000000;
+    height: 50%;
+}
+

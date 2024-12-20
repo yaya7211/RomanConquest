@@ -1,0 +1,30 @@
+.SelectList {
+    font-family: 'Times New Roman', serif; 
+    background-color: #f4f1ea;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.SelectList label {
+    display: block; 
+    margin-bottom: 5px;
+    color: #5a4a42; 
+    font-size: 18px; 
+}
+
+.SelectList select {
+    width: 100%; 
+    padding: 8px; 
+    background-color: #fff; 
+    border: 1px solid #b1a295;
+    color: #333;
+    font-size: 16px;
+    border-radius: 3px; 
+}
+
+.SelectList select option {
+    padding: 5px; 
+    background-color: #f9f8f6;
+}

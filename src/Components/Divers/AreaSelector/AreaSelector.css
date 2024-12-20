@@ -1,0 +1,13 @@
+.AreaSelector {
+    border: 1px solid #8a7e72; /* Subtle border color that fits the ancient theme */
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.AreaSelector > * {
+    margin: 10px;
+}

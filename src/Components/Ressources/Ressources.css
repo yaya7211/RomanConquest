@@ -1,0 +1,49 @@
+
+.RessourceArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    padding: 2px;
+    width: 100%;
+    background-color: #f4f1ea;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+
+.RessourcesBar {
+    display: flex; 
+    align-items: center;
+    height: fit-content;
+    gap: 20px; 
+    padding: 10px;
+}
+
+
+.RessourcesCell {
+    display: inline-flex; 
+    align-items: center; 
+    background-color: #e0d5c1; 
+    border: 1px solid #8a7e72; 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.RessourcesCell img {
+    width: 70px; 
+    height: 70px; 
+    margin-right: 25px; 
+}
+
+#LocalResources {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
