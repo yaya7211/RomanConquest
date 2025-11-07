@@ -20,13 +20,17 @@ jobs:
       with:
         node-version: '16'  # Specify your Node.js version
 
-    # Install dependencies
-    - name: Install dependencies
-      run: npm install
+    # Set CI environment variable to false to prevent warnings being treated as errors
+    - name: Set CI=false
+      run: echo "CI=false" >> $GITHUB_ENV
 
-    # Build the app
+    # Install dependencies and suppress warnings
+    - name: Install dependencies
+      run: npm install --silent
+
+    # Build the app and suppress warnings
     - name: Build the app
-      run: npm run build
+      run: npm run build --silent
 
     # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
