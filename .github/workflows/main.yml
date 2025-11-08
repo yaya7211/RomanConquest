@@ -32,6 +32,13 @@ jobs:
     - name: Build the app
       run: npm run build --silent
 
+      # Set the Git identity (user.email and user.name)
+    - name: Configure Git user identity
+      run: |
+        git config --global user.email "yaya.benamary@outlook.com"
+        git config --global user.name "yaya7211"
+
+
     # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
       run: npm run deploy
