@@ -24,23 +24,22 @@ jobs:
     - name: Set CI=false
       run: echo "CI=false" >> $GITHUB_ENV
 
-    # Install dependencies and suppress warnings
+    # Install dependencies
     - name: Install dependencies
       run: npm install --silent
 
-    # Build the app and suppress warnings
+    # Build the app
     - name: Build the app
       run: npm run build --silent
 
-      # Set the Git identity (user.email and user.name)
+    # Set the Git identity (user.email and user.name)
     - name: Configure Git user identity
       run: |
-        git config --global user.email "yaya.benamary@outlook.com"
-        git config --global user.name "yaya7211"
-
+        git config --global user.email "actions@github.com"
+        git config --global user.name "GitHub Actions"
 
     # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
       run: npm run deploy
       env:
-        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}  # Automatically provided by GitHub Actions
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # This is still the default GitHub token
