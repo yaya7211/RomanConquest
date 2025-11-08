@@ -40,5 +40,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  }
+  },
+  "homepage": "https://yaya7211.github.io/RomanConquest/"
 }
